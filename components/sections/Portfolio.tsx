@@ -6,22 +6,22 @@ import { FaArrowRight } from "react-icons/fa";
 const projects = [
     {
         id: 1,
-        title: "Website Design",
-        description: "Learn more about our website design process and how we create amazing experiences.",
+        title: "Desain Website",
+        description: "Pelajari lebih lanjut tentang proses desain website kami dan bagaimana kami menciptakan pengalaman yang luar biasa.",
         image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop",
         size: "large"
     },
     {
         id: 2,
-        title: "Website Design",
-        description: "Showcasing our best work in creating beautiful functional websites.",
+        title: "Desain Website",
+        description: "Menampilkan karya terbaik kami dalam membuat website fungsional yang indah.",
         image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop",
         size: "small"
     },
     {
         id: 3,
-        title: "Website Design",
-        description: "Discover our approach to modern web development.",
+        title: "Desain Website",
+        description: "Temukan pendekatan kami terhadap pengembangan web modern.",
         image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=600&auto=format&fit=crop",
         size: "small"
     }
@@ -32,10 +32,10 @@ export default function Portfolio() {
         <section id="portfolio" className="py-20 md:py-32 bg-white">
             <div className="container mx-auto px-6 md:px-12">
                 <div className="text-center mb-16">
-                    <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">Our Work</p>
-                    <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900">Success Project</h2>
+                    <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">Karya Kami</p>
+                    <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900">Proyek Sukses</h2>
                     <p className="text-gray-500 mt-4 max-w-2xl mx-auto">
-                        Explore some of our most recent and successful projects. We take pride in delivering excellence for our clients.
+                        Jelajahi beberapa proyek terbaru dan paling sukses kami. Kami bangga memberikan keunggulan bagi klien kami.
                     </p>
                 </div>
 
@@ -92,7 +92,7 @@ export default function Portfolio() {
 
                 <div className="flex justify-center mt-12">
                     <a href="#" className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium transition-colors shadow-md">
-                        View All Projects
+                        Lihat Semua Proyek
                     </a>
                 </div>
             </div>

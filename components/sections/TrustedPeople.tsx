@@ -52,20 +52,20 @@ export default function TrustedPeople() {
                             className="absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-10 w-32 h-32 md:w-40 md:h-40 rounded-full bg-blue-600 border-[8px] border-[#F8F9FA] shadow-xl z-40 flex flex-col items-center justify-center text-white"
                         >
                             <span className="font-display font-bold text-2xl md:text-3xl">200+</span>
-                            <span className="text-xs md:text-sm font-medium text-blue-100">Employees</span>
+                            <span className="text-xs md:text-sm font-medium text-blue-100">Karyawan</span>
                         </motion.div>
                     </div>
 
                     {/* Right Text */}
                     <div className="w-full lg:w-1/2 text-center lg:text-left">
                         <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 mb-6 leading-tight max-w-lg mx-auto lg:mx-0">
-                            Trusted 100% by many people Gradually
+                            Dipercaya 100% oleh banyak orang secara bertahap
                         </h2>
                         <p className="text-gray-500 text-lg leading-relaxed mb-10 max-w-md mx-auto lg:mx-0">
-                            Our team of over 200 experts is dedicated to delivering success. We build relationships on trust, transparency, and outstanding results.
+                            Tim kami yang terdiri dari lebih dari 200 ahli berdedikasi untuk memberikan kesuksesan. Kami membangun hubungan berdasarkan kepercayaan, transparansi, dan hasil yang luar biasa.
                         </p>
                         <a href="#about" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold text-lg transition-colors inline-block shadow-lg shadow-blue-600/30">
-                            Join Us
+                            Gabung Bersama Kami
                         </a>
                     </div>
 

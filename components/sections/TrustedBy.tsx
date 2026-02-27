@@ -9,7 +9,7 @@ export default function TrustedBy() {
     return (
         <section className="py-12 bg-white">
             <div className="container mx-auto px-6 text-center">
-                <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-8">Trusted over by</p>
+                <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-8">Dipercaya Oleh</p>
                 <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
 
                     <div className="flex items-center gap-2">

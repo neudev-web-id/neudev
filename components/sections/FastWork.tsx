@@ -12,16 +12,16 @@ export default function FastWork() {
                     {/* Left Text */}
                     <div className="w-full lg:w-5/12">
                         <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 mb-6 leading-tight">
-                            Fast Work is our focus
+                            Kerja Cepat adalah fokus kami
                         </h2>
                         <p className="text-gray-500 text-lg leading-relaxed mb-10 max-w-md">
-                            We streamline processes and utilize the best tools to ensure your project is delivered on time, every time, without compromising on premium quality.
+                            Kami menyederhanakan proses dan memanfaatkan alat terbaik untuk memastikan proyek Anda diserahkan tepat waktu, setiap saat, tanpa mengorbankan kualitas premium.
                         </p>
                         <a href="#services" className="inline-flex items-center gap-3 text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
                             <span className="w-12 h-12 rounded-full bg-blue-50 group-hover:bg-blue-100 flex items-center justify-center transition-colors">
                                 <FaPlay className="text-sm ml-1" />
                             </span>
-                            Watch how we work
+                            Tonton cara kami bekerja
                         </a>
                     </div>
 
@@ -39,7 +39,7 @@ export default function FastWork() {
                                 viewport={{ once: true }}
                                 className="absolute top-20 left-10 md:left-24 bg-blue-600 text-white p-4 rounded-xl shadow-lg w-48 text-sm font-medium z-10 flex items-center justify-between"
                             >
-                                Start Project <span className="bg-white/20 px-2 py-1 rounded text-xs">Day 1</span>
+                                Mulai Proyek <span className="bg-white/20 px-2 py-1 rounded text-xs">Hari 1</span>
                             </motion.div>
 
                             <motion.div
@@ -51,7 +51,7 @@ export default function FastWork() {
                             >
                                 <div className="flex items-center gap-3">
                                     <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">UI</div>
-                                    <span>Design Phase</span>
+                                    <span>Fase Desain</span>
                                 </div>
                                 <div className="flex -space-x-2">
                                     <div className="w-6 h-6 rounded-full bg-gray-200 border border-white"></div>
@@ -66,7 +66,7 @@ export default function FastWork() {
                                 transition={{ delay: 0.4 }}
                                 className="absolute bottom-20 left-1/2 -translate-x-1/2 bg-white border border-gray-100 px-6 py-4 rounded-full shadow-lg text-sm font-bold text-blue-600 z-10"
                             >
-                                Delivery Ready
+                                Siap Diserahkan
                             </motion.div>
 
                             {/* Connecting lines or dots on the timeline */}

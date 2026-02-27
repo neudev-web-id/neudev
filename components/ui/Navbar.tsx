@@ -18,18 +18,18 @@ export default function Navbar() {
     }, []);
 
     const navLinks = [
-        { name: "Home", href: "#" },
-        { name: "Services", href: "#services" },
-        { name: "Portfolio", href: "#portfolio" },
-        { name: "Contact", href: "#contact" },
+        { name: "Beranda", href: "#" },
+        { name: "Layanan", href: "#services" },
+        { name: "Portofolio", href: "#portfolio" },
+        { name: "Kontak", href: "#contact" },
         { name: "Blog", href: "#blog" },
     ];
 
     return (
         <nav
             className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled
-                    ? "bg-white/90 backdrop-blur-md shadow-sm py-4"
-                    : "bg-transparent py-6"
+                ? "bg-white/90 backdrop-blur-md shadow-sm py-4"
+                : "bg-transparent py-6"
                 }`}
         >
             <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
@@ -62,7 +62,7 @@ export default function Navbar() {
                         href="#contact"
                         className="px-6 py-2.5 bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 rounded-full font-medium text-sm transition-all shadow-sm flex flex-row items-center gap-2"
                     >
-                        Get Started
+                        Mulai Sekarang
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
@@ -103,7 +103,7 @@ export default function Navbar() {
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className="mt-4 px-6 py-3 bg-blue-600 text-white text-center rounded-full font-medium text-lg"
                             >
-                                Get Started
+                                Mulai Sekarang
                             </Link>
                         </div>
                     </motion.div>

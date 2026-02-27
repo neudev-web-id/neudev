@@ -7,9 +7,9 @@ export default function Testimonial() {
         <section className="py-20 md:py-32 bg-white relative">
             <div className="container mx-auto px-6 md:px-12 text-center max-w-4xl">
 
-                <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-6">Clients Testimonial</p>
+                <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-6">Testimoni Klien</p>
                 <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-16">
-                    Testimonial
+                    Testimoni
                 </h2>
 
                 <div className="relative">
@@ -23,7 +23,7 @@ export default function Testimonial() {
                     </div>
 
                     <p className="text-2xl md:text-4xl font-display font-medium text-gray-900 leading-snug mb-12 relative z-10">
-                        "We are very satisfied and happy working with Neudev. They have consistently delivered high-quality solutions, and their design expertise is unparalleled."
+                        "Kami sangat puas dan senang bekerja sama dengan Neudev. Mereka secara konsisten memberikan solusi berkualitas tinggi, dan keahlian desain mereka tidak ada bandingannya."
                     </p>
 
                     <div className="flex flex-col items-center gap-4 relative z-10">

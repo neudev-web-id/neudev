@@ -16,17 +16,17 @@ export default function UIDesignGallery() {
             <div className="container mx-auto px-6 md:px-12 mb-12">
                 <div className="flex flex-col md:flex-row justify-between items-end gap-6">
                     <div>
-                        <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">Gallery</p>
+                        <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">Galeri</p>
                         <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 max-w-lg leading-tight">
-                            UI Design Exploration
+                            Eksplorasi Desain UI
                         </h2>
                         <p className="text-gray-500 mt-4 max-w-lg">
-                            Check out our latest visual explorations and concepts crafted by our talented design team.
+                            Lihat eksplorasi visual dan konsep terbaru kami yang dibuat oleh tim desain berbakat kami.
                         </p>
                     </div>
                     <div>
                         <a href="#" className="px-8 py-3 bg-white border border-gray-200 hover:bg-gray-50 text-gray-900 rounded-full font-medium transition-all shadow-sm">
-                            See All Shots
+                            Lihat Semua Karya
                         </a>
                     </div>
                 </div>

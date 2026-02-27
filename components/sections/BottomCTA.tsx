@@ -14,16 +14,16 @@ export default function BottomCTA() {
 
                     <div className="relative z-10 max-w-2xl text-center md:text-left">
                         <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6 leading-tight">
-                            Work Together with Neudev
+                            Bekerja Sama dengan Neudev
                         </h2>
                         <p className="text-blue-100 text-lg md:text-xl">
-                            We help ambitious companies design, build, and launch exceptional digital products. Let's create something amazing together.
+                            Kami membantu perusahaan ambisius merancang, membangun, dan meluncurkan produk digital yang luar biasa. Mari kita ciptakan sesuatu yang luar biasa bersama-sama.
                         </p>
                     </div>
 
                     <div className="relative z-10 flex-shrink-0">
                         <a href="#contact" className="px-8 py-4 bg-white text-blue-600 hover:bg-blue-50 focus:ring-4 focus:ring-blue-300 rounded-full font-bold text-lg transition-all flex items-center gap-3 shadow-lg">
-                            Let's Talk
+                            Mari Berdiskusi
                             <FaArrowRight />
                         </a>
                     </div>

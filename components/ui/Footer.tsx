@@ -17,7 +17,7 @@ export default function Footer() {
                             </span>
                         </Link>
                         <p className="text-gray-500 text-sm leading-relaxed mb-6 pr-4">
-                            We are a premium digital agency that focuses on fast, high-quality UI/UX design and development for ambitious companies.
+                            Kami adalah agensi digital premium yang berfokus pada desain dan pengembangan UI/UX yang cepat dan berkualitas tinggi untuk perusahaan-perusahaan ambisius.
                         </p>
                         <div className="flex flex-row gap-4">
                             <a href="#" className="w-10 h-10 rounded-full bg-white border border-gray-200 flex flex-row items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors">
@@ -37,32 +37,32 @@ export default function Footer() {
 
                     {/* About */}
                     <div>
-                        <h4 className="font-display font-semiboldt text-gray-900 mb-6 font-bold">About</h4>
+                        <h4 className="font-display font-semiboldt text-gray-900 mb-6 font-bold">Tentang</h4>
                         <ul className="flex flex-col gap-4">
-                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">About Us</Link></li>
-                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Our Team</Link></li>
-                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Careers</Link></li>
-                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Contact</Link></li>
+                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Tentang Kami</Link></li>
+                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Tim Kami</Link></li>
+                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Karir</Link></li>
+                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Kontak</Link></li>
                         </ul>
                     </div>
 
                     {/* Services */}
                     <div>
-                        <h4 className="font-display font-semiboldt text-gray-900 mb-6 font-bold">Services</h4>
+                        <h4 className="font-display font-semiboldt text-gray-900 mb-6 font-bold">Layanan</h4>
                         <ul className="flex flex-col gap-4">
-                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">UI/UX Design</Link></li>
-                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Web Development</Link></li>
-                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Mobile Apps</Link></li>
+                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Desain UI/UX</Link></li>
+                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Pengembangan Web</Link></li>
+                            <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Aplikasi Mobile</Link></li>
                             <li><Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Branding</Link></li>
                         </ul>
                     </div>
 
                     {/* Contact */}
                     <div>
-                        <h4 className="font-display font-semiboldt text-gray-900 mb-6 font-bold">Contact</h4>
+                        <h4 className="font-display font-semiboldt text-gray-900 mb-6 font-bold">Kontak</h4>
                         <ul className="flex flex-col gap-4">
                             <li className="text-gray-500 text-sm flex flex-col">
-                                <span className="font-medium text-gray-900 mb-1">Phone</span>
+                                <span className="font-medium text-gray-900 mb-1">Telepon</span>
                                 +62 123 4567 890
                             </li>
                             <li className="text-gray-500 text-sm flex flex-col">
@@ -70,8 +70,8 @@ export default function Footer() {
                                 hello@neudev.com
                             </li>
                             <li className="text-gray-500 text-sm flex flex-col">
-                                <span className="font-medium text-gray-900 mb-1">Location</span>
-                                Konoha, Hidden Leaf Village.
+                                <span className="font-medium text-gray-900 mb-1">Lokasi</span>
+                                Konoha, Desa Daun Tersembunyi.
                             </li>
                         </ul>
                     </div>
@@ -80,11 +80,11 @@ export default function Footer() {
                 {/* Bottom */}
                 <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-gray-500 text-sm">
-                        © {new Date().getFullYear()} Neudev. All rights reserved.
+                        © {new Date().getFullYear()} Neudev. Hak cipta dilindungi undang-undang.
                     </p>
                     <div className="flex flex-row gap-6">
-                        <Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Privacy Policy</Link>
-                        <Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Terms of Service</Link>
+                        <Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Kebijakan Privasi</Link>
+                        <Link href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Syarat dan Ketentuan</Link>
                     </div>
                 </div>
             </div>

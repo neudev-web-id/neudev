@@ -20,7 +20,7 @@ export default function Hero() {
                 >
                     <div className="flex gap-2 mb-2 items-center">
                         <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-xs">C</div>
-                        <div className="text-xs font-semibold text-gray-700">Project Stats</div>
+                        <div className="text-xs font-semibold text-gray-700">Statistik Proyek</div>
                     </div>
                     <div className="flex items-end gap-2 h-16 border-b border-gray-100 pb-2">
                         <div className="w-4 bg-blue-500 rounded-t-sm h-[40%]"></div>
@@ -49,7 +49,7 @@ export default function Hero() {
                         <div className="w-10 h-10 rounded-full bg-gray-400 border-2 border-white overflow-hidden"><img src="https://i.pravatar.cc/100?img=3" alt="user" /></div>
                         <div className="w-10 h-10 rounded-full bg-blue-100 border-2 border-white flex items-center justify-center text-blue-600 text-xs font-bold">+1.2K</div>
                     </div>
-                    <div className="text-xs text-gray-500 text-center font-medium">Trusted by thousands of amazing clients</div>
+                    <div className="text-xs text-gray-500 text-center font-medium">Dipercaya oleh ribuan klien luar biasa</div>
                 </motion.div>
 
                 {/* Main Content */}
@@ -64,23 +64,23 @@ export default function Hero() {
                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                             <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
                         </span>
-                        Top rated agency 2026
+                        Agensi bermutu tinggi 2026
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-bold font-display text-gray-900 leading-tight tracking-tight mb-8">
-                        The Beloved Design <br className="hidden md:block" /> Company in Konoha
+                        Perusahaan Desain <br className="hidden md:block" /> Tercinta di Konoha
                     </h1>
 
                     <p className="text-lg md:text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
-                        We are dedicated to crafting exceptional digital experiences. From UI/UX design to full-scale web development, we bring your vision to life.
+                        Kami berdedikasi untuk menciptakan pengalaman digital yang luar biasa. Dari desain UI/UX hingga pengembangan web berskala penuh, kami mewujudkan visi Anda.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <a href="#contact" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold text-lg transition-transform hover:-translate-y-1 w-full sm:w-auto text-center shadow-lg shadow-blue-600/20">
-                            Get in touch
+                            Hubungi Kami
                         </a>
                         <a href="#portfolio" className="px-8 py-4 bg-white border border-gray-200 hover:bg-gray-50 text-gray-900 rounded-full font-semibold text-lg transition-transform hover:-translate-y-1 w-full sm:w-auto text-center shadow-sm">
-                            See our work
+                            Lihat karya kami
                         </a>
                     </div>
 
