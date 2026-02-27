@@ -23,7 +23,7 @@ export default function BottomCTA() {
 
                     <div className="relative z-10 shrink-0">
                         <a href="#contact" className="px-8 py-4 bg-white text-blue-600 hover:bg-blue-50 focus:ring-4 focus:ring-blue-300 rounded-full font-bold text-lg transition-all flex items-center gap-3 shadow-lg">
-                            Mari Berdiskusi
+                            Mari Berdiskusi dengna kami
                             <FaArrowRight />
                         </a>
                     </div>
