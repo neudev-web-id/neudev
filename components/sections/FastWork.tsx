@@ -32,7 +32,7 @@ export default function FastWork() {
     ];
 
     return (
-        <section className="py-20 md:py-32 bg-[#F8F9FA] relative" id="services">
+        <section className="py-20 md:py-32 bg-surface relative" id="services">
             <div className="container mx-auto px-6 md:px-12">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <p className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-4">Layanan Utama</p>
