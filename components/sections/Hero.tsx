@@ -68,20 +68,35 @@ export default function Hero() {
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-bold font-display text-gray-900 leading-tight tracking-tight mb-8">
-                        Perusahaan Desain <br className="hidden md:block" /> Tercinta di Konoha
+                        Bangun Website Profesional <br className="hidden md:block" /> untuk Bisnis Anda
                     </h1>
 
                     <p className="text-lg md:text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
-                        Kami berdedikasi untuk menciptakan pengalaman digital yang luar biasa. Dari desain UI/UX hingga pengembangan web berskala penuh, kami mewujudkan visi Anda.
+                        Kami membantu bisnis, startup, dan personal brand membangun website modern, cepat, dan SEO-friendly untuk meningkatkan kredibilitas dan konversi.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <a href="#contact" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold text-lg transition-transform hover:-translate-y-1 w-full sm:w-auto text-center shadow-lg shadow-blue-600/20">
-                            Hubungi Kami
+                            Mulai Proyek
                         </a>
                         <a href="#portfolio" className="px-8 py-4 bg-white border border-gray-200 hover:bg-gray-50 text-gray-900 rounded-full font-semibold text-lg transition-transform hover:-translate-y-1 w-full sm:w-auto text-center shadow-sm">
-                            Lihat karya kami
+                            Lihat Portfolio
                         </a>
+                    </div>
+
+                    <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 text-sm font-medium text-gray-600">
+                        <div className="flex items-center gap-2">
+                            <span className="flex items-center justify-center w-5 h-5 rounded-full bg-green-100 text-green-600 text-xs shadow-sm">✓</span>
+                            Website cepat & SEO Friendly
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="flex items-center justify-center w-5 h-5 rounded-full bg-green-100 text-green-600 text-xs shadow-sm">✓</span>
+                            Desain modern & responsive
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="flex items-center justify-center w-5 h-5 rounded-full bg-green-100 text-green-600 text-xs shadow-sm">✓</span>
+                            Support dan maintenance
+                        </div>
                     </div>
 
                 </motion.div>

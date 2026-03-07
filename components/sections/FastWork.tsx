@@ -1,82 +1,70 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaPlay } from "react-icons/fa";
+import { FaCode, FaPaintBrush, FaRocket, FaWrench } from "react-icons/fa";
 
 export default function FastWork() {
+    const services = [
+        {
+            icon: <FaCode className="text-3xl" />,
+            title: "Website Development",
+            description: "Website profesional untuk bisnis, startup, dan company profile.",
+            delay: 0.1
+        },
+        {
+            icon: <FaPaintBrush className="text-3xl" />,
+            title: "UI/UX Design",
+            description: "Desain interface modern yang fokus pada pengalaman pengguna.",
+            delay: 0.2
+        },
+        {
+            icon: <FaRocket className="text-3xl" />,
+            title: "Landing Page",
+            description: "Landing page yang dioptimalkan untuk marketing dan konversi.",
+            delay: 0.3
+        },
+        {
+            icon: <FaWrench className="text-3xl" />,
+            title: "Website Maintenance",
+            description: "Update, perbaikan bug, dan optimasi performa website.",
+            delay: 0.4
+        }
+    ];
+
     return (
-        <section className="py-20 md:py-32 bg-white overflow-hidden relative">
+        <section className="py-20 md:py-32 bg-[#F8F9FA] relative" id="services">
             <div className="container mx-auto px-6 md:px-12">
-                <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+                <div className="text-center max-w-2xl mx-auto mb-16">
+                    <p className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-4">Layanan Utama</p>
+                    <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+                        Solusi Digital Terpadu
+                    </h2>
+                    <p className="text-gray-500 text-lg">
+                        Kami menyediakan layanan lengkap untuk membantu bisnis Anda tumbuh dan bersaing di era digital.
+                    </p>
+                </div>
 
-                    {/* Left Text */}
-                    <div className="w-full lg:w-5/12">
-                        <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 mb-6 leading-tight">
-                            Kerja Cepat adalah fokus kami
-                        </h2>
-                        <p className="text-gray-500 text-lg leading-relaxed mb-10 max-w-md">
-                            Kami menyederhanakan proses dan memanfaatkan alat terbaik untuk memastikan proyek Anda diserahkan tepat waktu, setiap saat, tanpa mengorbankan kualitas premium.
-                        </p>
-                        <a href="#services" className="inline-flex items-center gap-3 text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
-                            <span className="w-12 h-12 rounded-full bg-blue-50 group-hover:bg-blue-100 flex items-center justify-center transition-colors">
-                                <FaPlay className="text-sm ml-1" />
-                            </span>
-                            Tonton cara kami bekerja
-                        </a>
-                    </div>
-
-                    {/* Right Visual (Kanban/Timeline Mockup) */}
-                    <div className="w-full lg:w-7/12 relative">
-                        <div className="relative w-full h-[400px] md:h-[500px] rounded-3xl bg-[#F8F9FA] p-8 md:p-12 border border-gray-100 shadow-sm overflow-hidden flex items-center justify-center">
-
-                            {/* Center Timeline line */}
-                            <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-blue-100 -translate-x-1/2"></div>
-
-                            {/* Flow boxes */}
-                            <motion.div
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                className="absolute top-20 left-10 md:left-24 bg-blue-600 text-white p-4 rounded-xl shadow-lg w-48 text-sm font-medium z-10 flex items-center justify-between"
-                            >
-                                Mulai Proyek <span className="bg-white/20 px-2 py-1 rounded text-xs">Hari 1</span>
-                            </motion.div>
-
-                            <motion.div
-                                initial={{ opacity: 0, x: 20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.2 }}
-                                className="absolute top-48 right-10 md:right-24 bg-white border border-gray-100 p-4 rounded-xl shadow-xl shadow-gray-200/50 w-56 text-sm font-medium z-10 text-gray-800 flex flex-col gap-3"
-                            >
-                                <div className="flex items-center gap-3">
-                                    <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">UI</div>
-                                    <span>Fase Desain</span>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {services.map((service, index) => (
+                        <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: service.delay, duration: 0.5 }}
+                            className="bg-white p-10 rounded-[2rem] border border-gray-100 hover:shadow-xl hover:border-blue-100 transition-all duration-300 group"
+                        >
+                            <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-blue-600 transition-all duration-300">
+                                <div className="text-blue-600 group-hover:text-white transition-colors duration-300">
+                                    {service.icon}
                                 </div>
-                                <div className="flex -space-x-2">
-                                    <div className="w-6 h-6 rounded-full bg-gray-200 border border-white"></div>
-                                    <div className="w-6 h-6 rounded-full bg-gray-300 border border-white"></div>
-                                </div>
-                            </motion.div>
-
-                            <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.4 }}
-                                className="absolute bottom-20 left-1/2 -translate-x-1/2 bg-white border border-gray-100 px-6 py-4 rounded-full shadow-lg text-sm font-bold text-blue-600 z-10"
-                            >
-                                Siap Diserahkan
-                            </motion.div>
-
-                            {/* Connecting lines or dots on the timeline */}
-                            <div className="absolute top-[108px] left-1/2 w-4 h-4 rounded-full bg-blue-600 -translate-x-1/2 ring-4 ring-white z-20"></div>
-                            <div className="absolute top-[220px] left-1/2 w-4 h-4 rounded-full bg-white border-4 border-blue-600 -translate-x-1/2 z-20"></div>
-                            <div className="absolute bottom-[108px] left-1/2 w-4 h-4 rounded-full bg-white border-4 border-green-500 -translate-x-1/2 z-20"></div>
-
-                        </div>
-                    </div>
-
+                            </div>
+                            <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
+                            <p className="text-gray-500 leading-relaxed">
+                                {service.description}
+                            </p>
+                        </motion.div>
+                    ))}
                 </div>
             </div>
         </section>

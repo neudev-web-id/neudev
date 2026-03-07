@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
+import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -15,8 +16,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Neudev | The Beloved Design Company",
-  description: "A premium digital agency showcasing modern UI/UX design and fast work processes.",
+  title: "Neudev | Premium Web Development Agency",
+  description: "Web Development Agency yang Membantu Bisnis Tumbuh Secara Digital menjangkau lebih banyak klien dengan website profesional.",
 };
 
 export default function RootLayout({
@@ -28,6 +29,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${poppins.variable} ${montserrat.variable} antialiased`}>
         {children}
+        <FloatingWhatsApp />
       </body>
     </html>
   );
